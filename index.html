@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatApp - Guide</title>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.14/dist/lenis.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main" class="max-w-[100vw] bg-[#020202]   w-screen ">
+        <div id="scrollCont" class=" w-screen  h-[200vh] bg-[#020202] relative">
+            <div id="pg1cont" class=" h-[100vh]  sticky top-0 flex flex-col  bg-[#020202]  justify-center items-center" >
+                <div id="intro" class="text-black orbitron text-center text-7xl absolute fonnt lo top-[10%]"><span class="opacity-0 intros">I</span><span class="opacity-0 intros">N</span><span class="opacity-0 intros">T</span><span class="opacity-0 intros">R</span><span class="opacity-0 intros">O</span><span class="opacity-0 intros">D</span><span class="opacity-0 intros">U</span><span class="opacity-0 intros">C</span><span class="opacity-0 intros">I</span><span class="opacity-0 intros">N</span><span class="opacity-0 intros">G</span></div>
+                <div style="box-shadow: 0px 0px 30px 2px #48bb78;" id="imgcont" class="translate-x-[-50px] translate-y-[5px] z-[3] absolute bg-[#48bb78] overflow-hidden rounded-xl border-2 border-[#48bb78] w-[10%] flex justify-center items-center h-[0%] "><img class="absolute h-[100%] w-[100%] object-cover" src="images/mainpg.png" alt=""></div>
+                <div id="heading" class="fonnt text-white text-center relative text-6xl "><span class="text-[#48bb78]">Not</span> A <span class="text-[#48bb78]">Basic</span> Chat App</div>
+                <div id="card1" style="box-shadow: 0px 0px 10px yellow;" class="carad absolute translate-y-[180vh] border-2 border-[yellow]  overflow-hidden z-10 rounded-xl w-[780px] h-[680px]">
+                    <div id="card1cont" class="w-full h-full flex flex-col bg-[#020202]  items-center">
+                        <div id="cardheaddabba" class="w-full bg-[yellow] flex justify-center items-center"><div id="carhead" class="text-[yellow] bg-black orbitron text-center text-4xl border-2 w-fit  border-[yellow] px-5 py-2 rounded-xl">A Basic Chat App</div></div>
+                        <div id="img1" class="left-0 border-2 border-[yellow] absolute rounded-xl  translate-y-[40%] ml-[5%] flex items-center justify-center translate-x-[0%] "><img class="rounded-xl" src="images/chats.png"  alt=""></div>
+                        <div  class="translate-y-[0%] border-2 border-[yellow] rounded-xl overflow-hidden text-[40px] text-[black] bg-[yellow] absolute top-[20%] orbitron max-w-[30%] mr-[5%] px-4 font-bold py-2 right-0"> Real Time Chatting</div>
+                        <div  class="translate-y-[0%] border-2 border-[yellow] rounded-xl overflow-hidden text-[15px] text-[yellow] bg-[#020202] absolute bottom-[10%] orbitron max-w-[30%] mr-[5%] px-4 py-2 right-0"> This app offers real-time messaging with Socket.IO and allows group creation with your friends, ensuring instant communication in a responsive, user-friendly interface for seamless group chats.</div>
+                    </div>
+                </div>
+                <div id="card2" style="box-shadow: 0px 0px 10px turquoise;" class="carad absolute translate-y-[180vh] border-2 border-[turquoise]  overflow-hidden z-10 rounded-xl w-[780px] h-[680px]">
+                    <div id="card1cont" class="w-full h-full flex flex-col bg-[#020202]  items-center">
+                        <div id="cardheaddabba" class="w-full bg-[turquoise] flex justify-center items-center"><div id="carhead" class="text-[turquoise] bg-black orbitron text-center text-4xl border-2 w-fit  border-[turquoise] px-5 py-2 rounded-xl">A Basic Chat App</div></div>
+                        <div id="img2" class="left-0 border-2 border-[turquoise] absolute rounded-xl  translate-y-[40%] ml-[5%] flex items-center justify-center translate-x-[0%] "><img class="rounded-xl" src="images/ai.png"  alt=""></div>
+                        <div  class="translate-y-[0%] border-2 border-[turquoise] rounded-xl overflow-hidden text-[40px] text-[black] bg-[turquoise] absolute top-[20%] orbitron max-w-[30%] mr-[5%] px-4 font-bold py-2 right-0">Ai Enabled Features</div>
+                        <div  class="translate-y-[0%] border-2 border-[turquoise] rounded-xl overflow-hidden text-[15px] text-[turquoise] bg-[#020202] absolute bottom-[10%] orbitron max-w-[30%] mr-[5%] px-4 py-2 right-0">Our chat app features AI-driven text-to-speech, speech-to-text, and smart auto-complete suggestions for faster and more efficient communication.</div>
+                    </div>
+                </div>
+                <div id="card3" style="box-shadow: 0px 0px 10px lightpink;" class="carad absolute translate-y-[180vh] border-2 border-[lightpink]  overflow-hidden z-10 rounded-xl w-[780px] h-[680px]">
+                    <div id="card1cont" class="w-full h-full flex flex-col bg-[#020202]  items-center">
+                        <div id="cardheaddabba" class="w-full bg-[lightpink] flex justify-center items-center"><div id="carhead" class="text-[lightpink] bg-black orbitron text-center text-4xl border-2 w-fit  border-[lightpink] px-5 py-2 rounded-xl">A Basic Chat App</div></div>
+                        <div id="img3" class="left-0 border-2 border-[lightpink] absolute rounded-xl  translate-y-[40%] ml-[5%] flex items-center justify-center translate-x-[0%] "><img class="rounded-xl" src="images/frnd.png"  alt=""></div>
+                        <div  class="translate-y-[0%] border-2 border-[lightpink] rounded-xl overflow-hidden text-[40px] text-[black] bg-[lightpink] absolute top-[20%] orbitron max-w-[30%] mr-[5%] px-4 font-bold py-2 right-0">Connect With Friends</div>
+                        <div  class="translate-y-[0%] border-2 border-[lightpink] rounded-xl overflow-hidden text-[15px] text-[lightpink] bg-[#020202] absolute bottom-[10%] orbitron max-w-[30%] mr-[5%] px-4 py-2 right-0">Connect with friends, create groups, and enjoy privacy in our AI-powered chat app, offering seamless communication with smart, fast messaging through advanced AI features.</div>
+                    </div>
+                </div>
+            <div id="card4" style="box-shadow: 0px 0px 10px #48bb78;" class="carad absolute translate-y-[180vh] border-2  border-[#48bb78]  overflow-hidden z-10 rounded-xl w-[780px] h-[680px]">
+                <div id="card1cont" class="w-full h-full flex flex-col bg-[#020202]  items-center">
+                    <div id="cardheaddabba" class="w-full bg-[#48bb78] flex justify-center items-center"><div id="carhead" class="text-[#48bb78] bg-black orbitron text-center text-4xl border-2 w-fit  border-[#48bb78] px-5 py-2 rounded-xl">A Basic Chat App</div></div>
+                    <div id="img4" class="left-0 border-2 border-[#48bb78] absolute rounded-xl  translate-y-[40%] ml-[5%] flex items-center justify-center translate-x-[0%] "><img class="rounded-xl" src="images/chats.png"  alt=""></div>
+                    <div  class="translate-y-[0%] border-2 border-[#48bb78] rounded-xl overflow-hidden text-[40px] text-[black] bg-[#48bb78] absolute top-[20%] orbitron max-w-[30%] mr-[5%] px-4 font-bold py-2 right-0"> Real Time Chatting</div>
+                    <div  class="translate-y-[0%] border-2 border-[#48bb78] rounded-xl overflow-hidden text-[15px] text-[#48bb78] bg-[#020202] absolute bottom-[10%] orbitron max-w-[30%] mr-[5%] px-4 py-2 right-0"> This app offers real-time messaging with Socket.IO and allows group creation with your friends, ensuring instant communication in a responsive, user-friendly interface for seamless group chats.</div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+    <div style="width: 100vw; overflow-x: hidden;">
+        <div id="ExtraSpace" style="box-shadow: 0px 0px 50px 3px #48bb78;" class="h-[10vh] my-[25vh] items-center justify-center skew-x-[20deg] w-[110vw] translate-x-[-5vw] translate-y-[50vh] rotate-[3deg] flex bgp">
+            <div class="explore w-screen absolute flex font-[Kanit] font-bold items-center justify-center h-[10vh]">
+                <div class="w-full animcover overflow-hidden text-[#48bb78] relative h-[100%] text-[25px] flex">
+                    <div class="items anims relative z-[100] flex w-full items-center h-[100%] justify-around">
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Arey yaar! 😅</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Kya scene hai? 🤔</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1"  >Chal na! 😜</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Kitna time? ⏰</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Jaldi aa! 🏃</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Full on masti! 🎉</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Chai peelo! ☕</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Photo lelo! 📸</span>
+                        </div>
+                    </div>
+                    <div class="items anims2 z-[100] left-[100%] absolute flex w-full items-center h-full justify-around">
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Arey yaar! 😅</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Kya scene hai? 🤔</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Chal na! 😜</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Kitna time? ⏰</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Jaldi aa! 🏃</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Full on masti! 🎉</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1"  >Chai peelo! ☕</span>
+                        </div>
+                        <div class="item flex items-center justify-center flex-col">
+                            <span style="border: 2px solid #48bb78; border-radius: 5px;" class="px-2 py-1">Photo lelo! 📸</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="pg2cont" class="h-[100vh]   w-screen  relative " >
+    <div class="flex w-screen h-[100vh]  overflow-hidden p-[30px] items-center justify-center sticky top-0">
+        <div id="techss" class="opacity-0 flex translate-y-[100vh]  bg-black w-[400px] h-[500px] translate-x-[25%] rounded-xl self-end absolute z-[101]  rotate-[25deg] p-[30px] items-center justify-center "><img id="techsimg" src="./images/zego.png"></div>
+        <div id="techss" class="opacity-0 flex translate-y-[100vh]  bg-black w-[400px] h-[500px] translate-x-[20%] rounded-xl self-end absolute z-[101]  rotate-[20deg] p-[30px] items-center justify-center "><img id="techsimg" src="./images/socketio_logo_icon_168806-removebg-preview.png"></div>
+        <div id="techss" class="opacity-0 flex translate-y-[100vh]  bg-black w-[400px] h-[500px] translate-x-[15%] rounded-xl self-end absolute z-[101]  rotate-[15deg] p-[30px] items-center justify-center "><img id="techsimg" src="./images/postman.png"></div>
+        <div id="techss" class="opacity-0 flex translate-y-[100vh]  bg-black w-[400px] h-[500px] translate-x-[10%] rounded-xl self-end absolute z-[101]  rotate-[10deg] p-[30px] items-center justify-center "><img id="techsimg" src="./images/CHAKRA.png"></div>
+        <div id="techss" class="opacity-0 flex translate-y-[100vh]  bg-black w-[400px] h-[500px] translate-x-[5%] rounded-xl self-end absolute z-[101]  rotate-[5deg] p-[30px] items-center justify-center "><img id="techsimg" src="./images/cloudinary-removebg-preview.png"></div>
+        <div id="techss" class="opacity-0 flex translate-y-[100vh]  bg-black w-[400px] h-[500px] translate-x-[0%] rounded-xl self-end absolute z-[101] rotate-[0deg] p-[30px] items-center justify-center "><img id="techsimg" src="./images/gsap.png"></div>
+        <div id="techss" class="opacity-0 flex translate-y-[100vh]  bg-black w-[400px] h-[500px] translate-x-[-5%] rounded-xl self-end absolute z-[101] rotate-[-5deg] p-[30px] items-center justify-center "><img id="techsimg" src="./images/node.png"></div>
+        <div id="techss" class="opacity-0 flex translate-y-[100vh]  bg-black w-[400px] h-[500px] translate-x-[-10%] rounded-xl self-end absolute z-[101] rotate-[-10deg] p-[30px] items-center justify-center "><img id="techsimg" src="./images/REACT.png"></div>
+        <div id="techss" class="opacity-0 flex translate-y-[100vh]  bg-black w-[400px] h-[500px] translate-x-[-15%] rounded-xl self-end absolute z-[101] rotate-[-15deg] p-[30px] items-center justify-center "><img id="techsimg" src="./images/ExpressJS-logo-removebg-preview.png"></div>
+        <div id="techss" class="opacity-0 flex translate-y-[100vh]  bg-black w-[400px] h-[500px] translate-x-[-20%] rounded-xl self-end absolute z-[101] rotate-[-20deg]  p-[30px] items-center justify-center "><img id="techsimg" src="./images/mongo.png"></div>
+            <div class="circle  w-[75vw]  max-[540px]:w-[150vw] flex-grow-0 flex-shrink-0 translate-y-[100%] rounded-full text-[15px]  relative  bg-[black] border-2 border-[green] top-[50%] font-extrabold  h-[75vw] max-[540px]:h-[150vw] orbitron rotate-[0deg] bottom-[0%]  ">
+                <div id="innercircle" class="w-[0%] h-[0%] rounded-full absolute opacity-0 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-[#48bb78]"></div>
+                <div class="element text-[#48bb78] " id="el1">Mongo-DB</div>
+                <div class="element text-[#48bb78] " id="el2">ExpressJs</div>
+                <div class="element text-[#48bb78] " id="el3">ReactJs</div>
+                <div class="element text-[#48bb78] " id="el4">NodeJs</div>
+                <div class="element text-[#48bb78] " id="el5">Gsap</div>
+                <div class="element text-[#48bb78] " id="el6">Cloudinary</div>
+                <div class="element text-[#48bb78] " id="el7">Chakra Ui</div>
+                <div class="element text-[#48bb78] " id="el8">Postman-Api</div>
+                <div class="element text-[#48bb78] " id="el9">Socket.io</div>
+                <div class="element text-[#48bb78] " id="el10">ZegoCloud</div>
+              </div>
+        
+        <svg  id="strng" height="80px"  class="w-[50%] max-[540px]:w-[80%] absolute z-[1000] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex items-center overflow-visible justify-center">
+            <path d="M 100 40 Q 500 40 900 40" stroke="#48bb78" fill="transparent"/>
+        </svg>
+    <h1 class="text-white opacity-30 plts orbitron top-[10%] left-[50%] translate-x-[-50%] translate-y-[-50%] absolute text-center text-6xl">Pull The String</h1>
+    
+    </div>
+</div>
+
+<div id="pg3cont" class="h-[300vh]  w-screen   relative">
+    <div id="allcont" class="flex h-screen sticky top-[0%] w-fit  "> 
+        <img id="mansvg" hidden class="absolute left-[150px] top-[150px] z-[100]" src="./images/svg.svg" width="120px" alt="">
+        <div id="pg3_1" class="w-screen flex-grow-0 flex items-center flex-col text-[#48bb78] justify-center flex-shrink-0 h-[100vh] ">
+            <div id="dibba1" class="w-[70%] min-h-[120px] overflow-hidden bg-black border-y-2  relative border-[#48bb78] flex items-center justify-center dibbas font-bold  text-center text-8xl  p-[30px] orbitron">
+                <div id="dibba1in" class="w-full h-full flex items-center justify-center relative">
+                    <div class="absolute w-0 h-0 translate-x-[-50%] translate-y-[-50%] bg-[#48bb78] rounded-full "></div>
+                    <span class="texxts">Video </span><span class="w-fit vidabba min-w-[20px] h-fit min-h-[10px] px-3 py-2 relative z-[1000] bg-white mx-2"><video class="vid w-0 min-h-0"  src="./videos/videocall.mp4" autoplay muted loop></video></span><span class="texxts">Calling</span>
+                </div>
+            </div>
+            <div id="dibba2" class="w-[70%] min-h-[120px] overflow-hidden bg-black border-y-2  relative border-[#48bb78] flex items-center justify-center dibbas font-bold  text-center text-8xl  p-[30px] orbitron">                
+                <div id="dibba1in" class="w-full h-full flex items-center justify-center relative">
+                    <div class="absolute w-0 h-0 translate-x-[-50%] translate-y-[-50%] bg-[#48bb78] rounded-full "></div>
+                    <span class="texxts">Chat </span><span class="w-fit vidabba min-w-[20px] h-fit min-h-[10px] px-3 py-2 relative z-[1000] bg-white mx-2"><video class="vid w-0 min-h-0"  src="./videos/translation.mp4" autoplay muted loop></video></span><span class="texxts">Translation</span>
+                </div>
+            </div>
+            <div id="dibba3" class="w-[70%] min-h-[120px] overflow-hidden bg-black border-y-2  relative border-[#48bb78] flex items-center justify-center dibbas font-bold  text-center text-8xl  p-[30px] orbitron">                
+                <div id="dibba1in" class="w-full h-full flex items-center justify-center relative">
+                    <div class="absolute w-0 h-0 translate-x-[-50%] translate-y-[-50%] bg-[#48bb78] rounded-full "></div>
+                    <span class="texxts">24hr </span><span class="w-fit vidabba min-w-[20px] h-fit min-h-[10px] px-3 py-2 relative z-[1000] bg-white mx-2"><video class="vid w-0 min-h-0"  src="./videos/tatus.mp4" autoplay muted loop></video></span><span class="texxts">Status</span>
+                </div>
+            </div>
+            <div id="dibba4" class="w-[70%] min-h-[120px] overflow-hidden bg-black border-b-2  relative border-[#48bb78] flex items-center justify-center dibbas font-bold  text-center text-8xl  p-[30px] orbitron">                
+                <div id="dibba1in" class="w-full h-full flex items-center justify-center relative">
+                    <div class="absolute w-0 h-0 translate-x-[-50%] translate-y-[-50%] bg-[#48bb78] rounded-full "></div>
+                    <span class="texxts">Ai</span><span class="w-fit vidabba min-w-[20px] h-fit min-h-[10px] px-3 py-2 relative z-[1000] bg-white mx-2"><video class="vid w-0 min-h-0"  src="./videos/ai.mp4" autoplay muted loop></video></span><span class="texxts">Enabled</span>
+                </div>
+            </div>
+        </div>
+        <div id="pg3_2" class="w-screen flex-grow-0 flex items-center justify-center  flex-shrink-0  h-[100vh]">
+            <div id="pg3_2cont" class="w-[80%] text-white  border-2 border-[black] h-[80%]  p-[30px] rounded-xl  relative flex items-start justify-start flex-col">
+                <p class="text-center text-2xl relative">
+                    <div id="pp" class="relative top-[0px] z-[1000] text-5xl font-[Orbitron] text-white font-bold w-full text-center p-1">Steps To Get Started</div>
+                    <div id="stp1" class="flex stps-parent h-[50px]" ><img class=" h-full px-3 py-2 text-center rounded-full" src="./images/anonymous-avatar-icon-25.jpg"><div class="h-full text-center flex items-center justify-center stps ">Sign up or log in to your account.</div></div>
+                    <div id="stp2" class="flex stps-parent h-[50px]" ><div class="h-full text-center flex items-center justify-center stps ">Search for your friends.</div><img class=" h-full px-3 py-2 text-center rounded-full" src="./images/anonymous-avatar-icon-25.jpg"></div>
+                    <div id="stp3" class="flex stps-parent h-[50px]" ><img class=" h-full px-3 py-2 text-center rounded-full" src="./images/anonymous-avatar-icon-25.jpg"><div class="h-full text-center flex items-center justify-center stps ">Start a new chat or Create a group chat.</div></div>
+                    <div id="stp4" class="flex stps-parent h-[50px]" ><div class="h-full text-center flex items-center justify-center stps ">Explore AI-driven features .</div><img class=" h-full px-3 py-2 text-center rounded-full" src="./images/anonymous-avatar-icon-25.jpg"></div>
+                    <div id="stp7" class="flex stps-parent h-[50px]" ><img class=" h-full px-3 py-2 text-center rounded-full" src="./images/anonymous-avatar-icon-25.jpg"><div class="h-full text-center flex items-center justify-center stps ">Customize your chat experience with personalized Language.</div></div>
+                    <div id="stp6" class="flex stps-parent h-[50px]" ><div class="h-full text-center flex items-center justify-center stps ">Share multimedia files like images, videos, and documents effortlessly.</div><img class=" h-full px-3 py-2 text-center rounded-full" src="./images/anonymous-avatar-icon-25.jpg"></div>
+                    <div id="stp5" class="flex stps-parent h-[50px]" ><img class=" h-full px-3 py-2 text-center rounded-full" src="./images/anonymous-avatar-icon-25.jpg"><div class="h-full text-center flex items-center justify-center stps ">Enjoy seamless and efficient communication with our advanced chat app.</div></div>
+                </p>
+            </div>
+        </div>
+        <div id="pg3_3" class="w-screen flex-grow-0 flex-shrink-0 h-[100vh] flex items-center justify-center flex-col">
+            <div id="pg3_3cont" class="w-full h-full gap-2 p-2 relative">
+                <div id="headpg3" class="w-full h-[5vh] flex items-center justify-around">
+                    <div id="hd1" class="w-[33%] text-4xl text-[#48bb78] kanit h-full bg-black rounded-xl text-center flex items-center justify-center">GitHub</div>
+                    <div id="hd2" class="w-[33%] text-4xl text-[#48bb78] kanit h-full bg-black rounded-xl text-center flex items-center justify-center">LinkedIn</div>
+                    <div id="hd3" class="w-[33%] text-4xl text-[#48bb78] kanit h-full bg-black rounded-xl text-center flex items-center justify-center">Instagram</div>
+                </div>
+                <div id="pg3_3contin" class="w-full mt-[1vh] flex items-center justify-around h-[93vh] relative">
+                    <div id="contin_1" class="w-[59.5%] h-full bg-black rounded-xl">
+                        <div id="namezz" class="text-[#48bb78] h-[30%] m-[3%] font-bold  flex items-center justify-center text-9xl orbitron">
+                            Dikshit<br>MAHANOT
+                        </div>
+                        <div id="rowdate" class="w-full h-[5%] flex items-center kanit justify-around text-[#48bb78]">
+                            <span class=" text-center w-[10%]">12/2005</span>
+                            <span class="lineee h-[10px] rounded-full w-[70%] bg-[#48bb78]"></span>
+                            <span class=" text-center w-[10%]">STILL ALIVE</span>
+                        </div>
+                        <div id="Note" class="w-full h-[65%] bg-black text-white rounded-xl">
+                            <div id="noteHead" class="text-2xl">Dev's Note</div>
+                            After two intense months of hard work, relentless upskilling, and unwavering dedication, I finally completed my chat app. I poured everything into this project, adding more and better features than the standard ones in basic tutorials on platforms like YouTube or Udemy. To others, it may seem like just another chat app, as familiar as WhatsApp in their daily lives. But behind every line of code and every feature is my determination and late nights, constantly learning and pushing myself to create something truly meaningful. Only I know the grit it took to bring this vision to life.
+                        </div>
+
+                    </div>
+                    <div id="contin_2" class="w-[39.5%] h-full bg-black rounded-xl">
+                        <div id="in_1" class="w-full h-[50%] bg-black rounded-xl"></div>
+                        <div id="in_2" class="w-full h-[50%] bg-black rounded-xl"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="pg-4" hidden class="h-[100vh] w-screen bg-green-500"></div>
+</div>
+
+
+<script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</body>
+</html>

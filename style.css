@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@keyframes carouselmain {
+    from{
+      transform: translateX(100%);
+    }
+    to{
+      transform: translateX(-100%);
+    }
+  
+  }
+  
+  @keyframes carouselmain2{
+    from{
+      transform: translateX(0%);
+    }
+    to{
+      transform: translateX(-200%);
+    }
+  
+  }
+  .anims{
+    z-index: 100;
+    animation: carouselmain 12s infinite linear;
+  }
+  .anims2{
+    z-index: 100;
+    animation: carouselmain2 12s infinite linear;
+    animation-delay: 6s;
+  }
+
+
+
+.developer{
+    color: #48bb78;
+    text-shadow: 4px 4px 0px black;
+    -webkit-text-stroke: 2px white;
+}
+
+.fonnt{
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 0px 0px 7px #48bb78;
+}
+.kanit{
+    font-family: 'Kanit', sans-serif;
+}
+
+.orbitron{
+    font-family: "Orbitron", sans-serif;
+}
+#Note{
+  font-size: 20px;
+    padding: 30px;
+}
+#noteHead{
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.lo{
+    -webkit-text-stroke: 1px #48bb78;
+}
+.colorbg{
+    background-color: #020202;
+}
+@keyframes rotat {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+  
+}
+
+#img1::before{
+    content: "";
+    position: absolute;
+    z-index: -100;
+    width: 108%;
+    height: 108%;
+    background-color: yellow;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+#img2::before{
+    content: "";
+    position: absolute;
+    z-index: -100;
+    width: 108%;
+    height: 108%;
+    background-color: turquoise;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+#img3::before{
+    content: "";
+    position: absolute;
+    z-index: -100;
+    width: 108%;
+    height: 108%;
+    background-color: lightpink;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+#img4::before{
+    content: "";
+    position: absolute;
+    z-index: -100;
+    width: 108%;
+    height: 108%;
+    background-color: #48bb78;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.bgp{
+    background: linear-gradient(#45ff93,black,black, #45ff93);
+}
+
+.bgp:before{
+    content: "";
+    position: absolute;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    background: linear-gradient(90deg,black,transparent,transparent,black);
+}
+
+.circle {
+  position: relative;
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 50%;
+  display: none;
+
+  box-shadow: #45ff93 0px 0px 50px 2px;
+}
+
+.element {
+  position: absolute;
+  width: 8%;
+  height: 8%;
+}
+
+.plts{
+  transition: 0.3s all ease-in-out;
+}
+
+#el1 { --angle: 0deg; }
+#el2 { --angle: 36deg; }
+#el3 { --angle: 72deg; }
+#el4 { --angle: 108deg; }
+#el5 { --angle: 144deg; }
+#el6 { --angle: 180deg; }
+#el7 { --angle: 216deg; }
+#el8 { --angle: 252deg; }
+#el9 { --angle: 288deg; }
+#el10 { --angle: 324deg; }
+
+/* Position elements outside the circle */
+.element {
+  top: calc(50% - 4%);
+  left: calc(50% - 4%);
+  transform: rotate(var(--angle)) translate(0, -635%);
+}
+*::selection{
+  background-color: transparent;
+  
+}
+*::-webkit-scrollbar{
+  display: none;
+}
+
+#techss{
+  box-shadow: black 2px 2px 30px 2px;
+  border: 2px solid #48bb78;
+  scale: 0.4;
+}
+
+#techsimg{
+  -webkit-filter: drop-shadow(2px 2px 0px white);
+}
+
+#pg3cont{
+  display: none;
+}
+.vid{
+  box-shadow: black 0px 0px 10px 2px;
+  transition: 0.3s all ease-in-out;
+}
+
+#allcont{
+  transition: 0.3s all ease-out;
+}
+
+#pg3_2cont{
+  rotate: -18deg;
+  opacity: 1;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.dibbas{
+  cursor: pointer;
+  transition: 0.3s all ease-out;
+  &:hover{
+    .texxts{
+      font-size: 20px;
+    }
+    .vidabba{
+      border-radius: 10px;
+      padding: 10px;
+    }
+    .vid{
+      border: 1px solid #48bb78;
+      border-radius: 10px;
+      width: 220px;
+      height: auto;
+    }
+
+    color: white;
+  }
+  .absolute{
+    opacity: 0;
+  }
+}
+.dibbas::after{
+  content: "";
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+}
+.texxts{
+  transform: translateY(200px);
+  opacity: 0;
+  z-index: 1010;
+  transition: 0.3s all ease-out;
+}
+
+#mansvg{
+  filter: invert(1);
+}
+
+.stps-parent{
+  margin: 20px;
+  font-size: 25px;
+}
+#pp{
+  text-shadow: black 0px 3px 0px;
+}
+.stps{
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 999px;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.54) 0px 0px 8px;
+  font-family: 'DynaPuff', cursive;
+}
+.stps-parent:nth-child(2n+2){
+  margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #heading{
+    font-size: 40px;
+  }
+  #namezz{
+    font-size: 55px;
+  }
+  .dibbas{
+    width: 100%;
+  }
+  .texxts{
+    font-size: 40px;
+    flex-shrink: 1;
+  }
+  .vid{
+    flex-grow: 3;
+  }
+  .lineee{
+    width: 60%;
+  }
+  #ExtraSpace{
+    transform: skewX(20deg) translateX(-7.5vw);
+  }
+  .animcover{
+    min-width: fit-content;
+    text-wrap: nowrap;
+    font-size: 15px;
+  }
+  .carad{
+    scale: 0.7;
+  }
+  #pp{
+    font-size: 30px;
+  }
+  .stps{
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  #intro{
+    font-size: 40px;
+  }
+  .carad{
+    scale: 0.5;
+  }
+  .item{
+    font-size: 15px;
+  }
+  #Note{
+    font-size: 15px;
+  }
+  
+  #techss{
+    width: 300px;
+    height: 375px;
+  }
+  .lineee{
+    width: 50%;
+  }
+  .element{
+    font-size: 15px;
+    word-wrap: nowrap;
+    text-wrap: nowrap;
+  }
+  .circle{
+    width: 150vw;
+    height: 150vw;
+  }
+  #namezz{
+    font-size: 40px;
+  }
+  .dibbas{
+    width: 100% !important;
+  }
+  #pp{
+    font-size: 25px;
+  }
+  .stps{
+    font-size: 10px;
+  }
+  
+  #Note{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #intro{
+    font-size: 30px;
+  }
+  .carad{
+    scale: 0.4;
+  }
+  #Note{
+    font-size: 12px;
+  }
+  #namezz{
+    font-size: 30px;
+  }
+  .dibbas{
+    width: 100% !important;
+  }
+  #pp{
+    font-size: 30px;
+  }
+  .stps{
+    font-size: 12px;
+  }
+  #Note{
+    font-size: 11px;
+  }
+}
+
