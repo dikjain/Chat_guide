@@ -62,8 +62,7 @@
     padding: 30px;
 }
 #noteHead{
-  font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-family: 'Orbitron', sans-serif;
 }
 
@@ -311,10 +310,63 @@
   .stps{
     font-size: 16px;
   }
+  #pg3_3 {
+    height: auto;
+  }
+  #pg3_3cont {
+    flex-direction: column;
+  }
+  #headpg3 {
+    flex-direction: column;
+    height: 3vh;
+  }
+  #headpg3 > div {
+    width: 100%;
+    margin-bottom: 1px;
+    height: 2vh;
+  }
+  #pg3_3contin {
+    flex-direction: column;
+  }
+  #contin_1, #contin_2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #namezz {
+    font-size: 40px;
+  }
+  #rowdate {
+    flex-direction: column;
+  }
+  #rowdate > span {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .swiper-slide {
+    font-size: 20px;
+  }
+  #noteHead {
+    font-size: 30px;
+  }
+  #Suggestion, #credits {
+    position: static;
+    margin-top: 20px;
+  }
+  #email, #friend {
+    font-size: 20px;
+  }
+  #slider-in-2{
+    display: none;
+  }
 }
 
 
 @media screen and (max-width: 540px) {
+  .hds{
+    min-height: 30px;
+    font-size: 15px;
+  }
   #intro{
     font-size: 40px;
   }
@@ -344,9 +396,7 @@
     width: 150vw;
     height: 150vw;
   }
-  #namezz{
-    font-size: 40px;
-  }
+
   .dibbas{
     width: 100% !important;
   }
@@ -360,6 +410,49 @@
   #Note{
     font-size: 13px;
   }
+  #pg3_3 {
+    height: auto;
+  }
+  #pg3_3cont {
+    flex-direction: column;
+  }
+  #headpg3 {
+    flex-direction: column;
+    height: auto;
+  }
+  #headpg3 > div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #pg3_3contin {
+    flex-direction: column;
+  }
+  #contin_1, #contin_2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #namezz {
+    font-size: 30px;
+  }
+  #rowdate {
+    flex-direction: column;
+    display: none;
+  }
+  #rowdate > span {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #noteHead {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  #Suggestion, #credits {
+    position: static;
+    margin-top: 20px;
+  }
+  #email, #friend {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 400px) {
   #intro{
@@ -370,9 +463,6 @@
   }
   #Note{
     font-size: 12px;
-  }
-  #namezz{
-    font-size: 30px;
   }
   .dibbas{
     width: 100% !important;
@@ -385,6 +475,47 @@
   }
   #Note{
     font-size: 11px;
+  }
+  #pg3_3 {
+    height: auto;
+  }
+  #pg3_3cont {
+    flex-direction: column;
+  }
+  #headpg3 {
+    flex-direction: column;
+    height: auto;
+  }
+  #headpg3 > div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #pg3_3contin {
+    flex-direction: column;
+  }
+  #contin_1, #contin_2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #namezz {
+    font-size: 25px;
+  }
+  #rowdate {
+    flex-direction: column;
+  }
+  #rowdate > span {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #noteHead {
+    font-size: 20px;
+  }
+  #Suggestion, #credits {
+    position: static;
+    margin-top: 20px;
+  }
+  #email, #friend {
+    font-size: 16px;
   }
 }
 

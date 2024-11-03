@@ -155,7 +155,6 @@ function baadwaale(){
       start: "33.33% bottom",
       end: "50% bottom",
       scrub: 0.1,
-      markers:true,
     },
   })
   gsap.to(".circle",{
@@ -209,6 +208,8 @@ function baadwaale(){
     },
     opacity:1,
   })
+
+
   gsap.to("#pg-4",{
     scrollTrigger: {
       trigger: "#pg3cont",
